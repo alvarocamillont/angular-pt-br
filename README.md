@@ -18,6 +18,16 @@ remenber to change all angularx to angular_yourLang => example angularbr
 use the main.yml file 
 
 ## Credits
+### Contributor
+
+Contributors who have contributed to this project!
+
+<a href="https://github.com/angular-es/angularcomunities/graphs/contributors">
+   <img src="https://contributors-img.web.app/image?repo=angular-es/angularcomunities" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
+
 
 ### Collaborators
 Collaborators who have contributed to this project!
