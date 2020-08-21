@@ -1,0 +1,160 @@
+version: 1
+imports:
+  - path: ./node_modules/prh-rules/files/markdown.yml
+  - path: ./node_modules/prh-rules/media/techbooster.yml
+    disableImports: true
+    ignoreRules:
+      - expected: （$1）
+rules:
+
+# Paraphrase
+
+  -expected: dependency injections
+    pattern: dependency injections
+
+  -expected: dependency injection
+    pattern: dependency injection
+
+  -expected: one-way
+    pattern: one-way
+
+  -expected: two-way
+    pattern: two-way
+
+  -expected: change detection
+    pattern: change detection
+
+  -expected: Service Worker
+    pattern:
+      -ServiceWorker
+      -Service worker
+    options:
+      wordBoundary: true
+
+  -expected: next
+    pattern: next
+
+  -expected: inject
+    pattern: inject
+
+  -expected: injectable
+    pattern: injectable
+
+  -expected: see
+    pattern: Please refer
+
+  -expected: propagate
+    pattern: transmitted
+
+  -expected: propagated
+    pattern: message
+
+  -expected: static
+    pattern: static
+  
+  -expected: easy to do
+    pattern: easy to do
+
+  -expected: easy to do
+    pattern: easy to do
+
+  -expected: subscribe
+    pattern: subscribe
+  
+  -expected: for
+    pattern: / (line | product)?
+    regexpMustEmpty: $1
+
+#Katakana
+
+  -expected: observer
+    pattern: / Observer (?! ー) /
+
+  -expected: provider
+    pattern: /provider(?!ー)/
+
+  -expected: server
+    pattern: / server (?! ー) /
+
+  -expected: browser
+    pattern: /browser/
+
+  -expected: subscriber
+    pattern: / Subscriber (?! ー) /
+
+  -expected: router
+    pattern: /router(?!ー)/
+  
+  -expected: decorator
+    pattern: / Decorator (?! ー) /
+
+  -expected: injector
+    pattern: / injector (?! ー) /
+
+  -expected: user
+    pattern: / user (?! ー) /
+
+  -expected: selector
+    pattern: / selector (?!ー)/
+
+  -expected: category
+    pattern: / category (?! ー) /
+
+  -expected: constructor
+    pattern: / constructor (?! ー) /
+
+  -expected: operator
+    pattern: / operator (?!ー)/
+
+  -expected: recovery
+    pattern: / recovery (?! ー) /
+
+  -expected: emitter
+    pattern: / emitter (?! ー) /
+
+  -expected: trigger
+    pattern: / trigger (?! ー) /
+  
+  -expected: handler
+    pattern: / handler (?! ー) /
+
+  -expected: listener
+    pattern: / listener (?! ー) /
+
+  -expected: Technology
+    pattern: / Technology (?! ー) /
+
+  -expected: manager
+    pattern: / Manager (?! ー) /
+
+  -expected: quotes
+    pattern: quote
+
+  -expected: interface
+    pattern:
+      -Interface
+      -Interface
+      -Interface
+
+  -expected: Promise
+    pattern: promise
+
+  -expected: Observable
+    pattern: observable
+
+  -expected: input element
+    pattern: input element
+
+  -expected: static method
+    pattern: static method
+
+  -expected: user experience
+    pattern: user experience
+
+  -expected: prefix
+    pattern: prefix
+
+  -expected: suffix
+    pattern:
+      -Suffix
+      -Postfix

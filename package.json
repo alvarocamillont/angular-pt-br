@@ -1,0 +1,27 @@
+{
+  "name": "angular-es",
+  "version": "0.0.2",
+  "main": "index.js",
+  "description": "A package to share with spanish spoken official docs and make comunity around Angular",
+  "repository": "https://github.com/ng-es/angular-es",
+
+  "author": "Suguru Inatomi <suguru.inatomi@gmail.com>",
+  "contributors" :[
+    "Antonio Cárdenas <antonioalx66@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "npm run textlint",
+    "update-origin": "./update-origin.sh",
+    "textlint": "textlint 'aio-x/**/!(*.en).md'",
+    "textlint:f": "textlint --fix 'aio-x/**/!(*.en).md'"
+  },
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "prh-rules": "prh/rules",
+    "textlint": "^11.0.0",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-prh": "^5.0.1"
+  }
+}

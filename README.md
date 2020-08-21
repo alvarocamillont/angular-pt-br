@@ -1,0 +1,36 @@
+Angular is a development platform for building web and mobile applications that uses TypeScript/JavaScript and other programming languages.
+
+Fast guide
+[Get started in 5 minutes](quickstart).
+
+
+
+Changelog
+[Latest improvements] (changelog).
+
+This repository is for translating the official site [angular.io](https://angular.io) of **Angular**
+## Change in the app
+
+remenber to change all angularx to angular_yourLang => example angularbr
+
+
+## If you want to use firebase to CI in github actions
+use the main.yml file 
+
+## Credits
+
+### Collaborators
+Collaborators who have contributed to this project!
+
+## Contributions are welcome!
+
+This translation project requires your cooperation.
+Discussions on translation projects are ongoing on the `#translation` channel at [ng-es](https://discord.gg/tS4XVkS).
+
+- Proposed fixes/improvements for translated documents.
+-Translation of non-translated documents
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for the specific workflow.
+
+
+Repo based on [Angular-jp](https://github.com/angular/angular-ja), a special thanks to [@lacolaco](https://github.com/lacolaco)
