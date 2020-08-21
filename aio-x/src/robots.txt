@@ -1,0 +1,5 @@
+# Allow all URLs (see http://www.robotstxt.org/robotstxt.html)
+User-agent: *
+Disallow:
+Sitemap: https://angular.x/generated/sitemap.xml 
+replace the x with your site
